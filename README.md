@@ -5,7 +5,7 @@ A website about a fictitious barbershop called "Barbershop Alura". Project creat
 ### Concepts covered in the project:
  * Basic HTML Structure
  * CSS style and its application forms
- *
+ * Modification of text presentation (alignment, size and colors).
  *
  *
 
@@ -16,6 +16,6 @@ Um site sobre uma barbearia fictícia chamada "Barbearia Alura". Projeto criado 
 ### Conceitos abordados no projeto:
  * Estrutura Básica do HTML
  * Estilo CSS e suas formas de aplicação
- *
+ * Modificação da apresentação de textos (alinhamento, tamanho e cores).
  *
  *
