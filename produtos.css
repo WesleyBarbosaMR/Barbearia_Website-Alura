@@ -46,6 +46,10 @@ nav a{
 	padding: 30px 20px;
 	box-sizing: border-box;
 
+	border: 2px solid #000000;
+	/** Border Types: solid, dashed, dotted**/
+	border-radius: 10px;
+	/** É possível obter bordas de angulações distintas em cada lado.
 }
 
 .produtos h2{
