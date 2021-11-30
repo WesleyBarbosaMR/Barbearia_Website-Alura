@@ -9,6 +9,7 @@ A website about a fictitious barbershop called "Barbershop Alura". Project creat
  * Size edit parameters (height, width);
  * Tag identifiers;
  * Internal and external spacing(margin, padding);
+ * Header Concepts
 
 
 ## (PT-BR)
@@ -21,4 +22,4 @@ Um site sobre uma barbearia fictícia chamada "Barbearia Alura". Projeto criado 
  * Parâmetros de edição de tamanho (height, width);
  * Identificadores de tag
  * Espaçamento interno e externo (margin, padding);
- *
+ * Conceitos de cabeçalho
