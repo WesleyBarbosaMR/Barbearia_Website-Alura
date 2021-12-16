@@ -193,6 +193,9 @@ td, th {
 
 .utensilios {
 	width: 120px;
+	/*Exemplo da propriedade calc:
+	width: calc(40% - (26px * 4)
+	para tamanhos proporcionais de tela em diferentes dispositivos*/
 	float: left;
 	margin: 0 20px 20px 0;
 }
@@ -235,7 +238,7 @@ td, th {
 }
 
 .itens:before {
-	content: "✪ "
+	content: "✪	 "
 }
 
 .itens:first-child {
@@ -256,3 +259,10 @@ td, th {
 	width: 560px;
 	margin: 2em auto;
 }	
+
+/* Seletores especiais
+	**Podem ser usados juntos pra chegar num elemento específico.
+	main > p (> --> Filho direto)
+	img + p (+ --> Irmão)
+	img ~ p (~ --> Pega todos as tag seguintes)
+	.principal p:not(#missao) --> Exclui um tag da seleção de outro seletor;
