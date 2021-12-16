@@ -170,6 +170,14 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+	
+	/*Sombras no texto --> text-shadow: eixo X eixo Y cor;
+      Propriedades semelhantes aos da box-shadow.
+	
+	/*Controle de cor e opacidade:
+	  color: rgba(0,0,0,1);	
+	  rgb --> só cores
+	  rgba --> cores e opacidade */
 }
 
 .principal {
@@ -220,6 +228,7 @@ td, th {
 .beneficios{
 	padding: 3em 0;
 	background: #888888;
+	/*Sombra interna --> box-shadow: inset 0 0 30px #FF0000;*/
 }
 
 .conteudo_beneficios{
@@ -253,6 +262,20 @@ td, th {
 
 .imagem_beneficios {
 	width: 60%;
+	opacity: 1;
+	/*opacity vai de 0 a 1(0 a 100%)*/
+	box-shadow: 10px 10px 10px #000000;
+	/*Sombras no elemento --> box-shadow: eixo X eixo Y cor;
+      Para deslocar a sombra --> tamanho do deslocamentopx X tamanho do deslocamentopx Y cor;
+	  Difusão da sombra --> box-shadow: X Y valor de blur px cor;
+	  Expansão da sombra --> box-shadow: X Y blur valor de expansão px cor;
+	  Múltiplas sombras --> box-shadow: configurações da sombra 1, configurações da sombra 2....;*/
+
+}
+
+.imagem_beneficios:hover {
+	opacity: 0.3;
+	transition: 400ms;
 }
 
 .video {
