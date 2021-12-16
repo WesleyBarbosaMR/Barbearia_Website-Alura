@@ -106,12 +106,76 @@ footer{
 main {
 	
 }
-
-form{
+/*
+.formulario{
 	margin: 40px 0;
+	padding: 0 15%;
+	width: 100%;
 }
 
-form label, form legend {
+.formulario label, .formulario legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.button_enviar{
+	padding: 0 0 0 9.5%;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+.horario_funcionamento {
+	padding: 0 0 0 33%;
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+	font-size: 30px
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+	font-size: 20px;
+	text-align: center;
+}
+*/
+.formulario{
+	margin: 40px 5px;
+}
+
+.formulario label, .formulario legend {
 	display: block;
 	font-size: 20px;
 	margin: 0 0 10px;
@@ -144,6 +208,10 @@ form label, form legend {
 .enviar:hover {
 	background: darkorange;
 	transform: scale(1.2);
+}
+
+.horario_funcionamento {
+	padding: 0 0 0 165px;
 }
 
 table {
@@ -242,6 +310,10 @@ td, th {
 	vertical-align: top;
 }
 
+.div_imagem_beneficios{
+	display: inline;
+}
+
 .itens {
 	line-height: 1.5;
 }
@@ -283,9 +355,73 @@ td, th {
 	margin: 2em auto;
 }	
 
+.video > iframe {
+	box-shadow: 10px 10px 10px #000000;
+}
 /* Seletores especiais
 	**Podem ser usados juntos pra chegar num elemento específico.
 	main > p (> --> Filho direto)
 	img + p (+ --> Irmão)
 	img ~ p (~ --> Pega todos as tag seguintes)
-	.principal p:not(#missao) --> Exclui um tag da seleção de outro seletor;
+	.principal p:not(#missao) --> Exclui um tag da seleção de outro seletor;*/
+
+@media screen and (max-width: 480px) {
+	
+	.titulo-principal, .principal, .mapa > p {
+		padding: 0 20px;
+	}
+
+	.video{
+		width: 90%;
+	}
+
+	.caixa, .principal, .conteudo_beneficios, .mapa_conteudo{
+			width: auto;
+		}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		text-align: center;
+		position: static;
+	}
+
+	.lista_beneficios {
+		padding: 0 20px;
+		width: 90%;
+	}
+
+	.imagem_beneficios {
+		width: 90%;
+	}
+	.div_imagem_beneficios{
+		padding: 0 0 0 5%;
+	}
+
+	.produtos {
+		width: auto;
+		padding: 5%;
+	}
+
+	.produtos li{
+		width: auto;
+		display: block;
+		margin: 4%;
+	}
+
+	.formulario div:not(#button_enviar) {
+		margin: 
+		padding: 0 0 0 10%;
+	}
+
+	.button_enviar{
+		text-align: center;
+		padding: 0 0 0 3%;
+	}
+
+	.horario_funcionamento {
+		padding: 0 0 0 25%;
+	}
+}
